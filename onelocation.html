@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+      <!-- bootstrap -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    
+      <!-- font-awesome -->
+      <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+      <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+      
+    
+      <!-- leaflet css -->
+      <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
+    
+      <!-- noncdn -->
+      <!-- noUiSlider css -->
+      <link rel="stylesheet" href="./lib/css/nouislider.min.css" />
+    
+      <!-- leaflet-sidebar -->
+      <!-- <link rel="stylesheet" href="./lib/css/leaflet-sidebar.min.css" /> -->
+
+      <!-- leaflet zoom home -->
+      <link rel="stylesheet" href="./lib/css/leaflet.zoomhome.css" />
+
+      <!-- main style css  -->
+      <link rel="stylesheet" href="./lib/css/style.css" />
+    
+      <title>Thesis Traffic Dashboard</title>
+    </head>
+
+<body>
+    <!-- navbar  -->
+    <nav class="navbar navbar-expand-xl navbar-dark custom-nav">
+      <a class="navbar-brand md-5" id="custom-title" href="index.html"><b>ALFRIED Traffic Data Dashboard</b></a>
+      <img src="./lib/img/iwt.jpg" alt="mid Logo" style="height: 50px; margin-left: 0 px">
+      <img src="./lib/img/alfried.png" alt="left Logo" style="height: 50px;  margin-left: 10px">
+      <img src="./lib/img/hftlogo.png" alt="Right Logo" style="height: 50px; margin-left: 0px">
+    </nav>
+    <div class="container-fluid">
+      <div class="row display-flex">
+        <div class="col-xl-2" id="leftbar">
+          <!--  -->
+          <div class="row dashboard-element" id="sensor-number">
+            <div>
+              <h6 class="text-center border-bottom border-white">
+                <b>Sensors</b>
+              </h6>
+            </div>
+            <div class="radiobuttons">
+              <div class="radio">
+                <input type="radio" name="variableRadio" value="all_sensors" id="all-sensors" />
+                <label for="all-sensors"> All </label>
+              </div>
+              <div class="radio">
+                <input type="radio" name="variableRadio" value="selected_sensors" id="selected-sensors" />
+                <label for="selected-sensors"> Selected</label>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+          <!-- style="display: none" -->
+          <!-- <div class="row dashboard-element" id="temporal-aggregation">
+            <div>
+              <h6 class="text-center border-bottom border-white">
+                <b>Temporal Agg.</b>
+              </h6>
+            </div>
+            <div class="radiobuttons">
+              <div class="radio">
+                <input type="radio" name="variableRadio" value="aggregation_hourly" id="aggregation-hourly" />
+                <label for="aggregation-hourly"> Hourly</label>
+              </div>
+              <div class="radio">
+                <input type="radio" name="variableRadio" value="aggregation_daily" id="aggregation-daily" />
+                <label for="aggregation-daily"> Daily</label>
+              </div>
+            </div>
+          </div> -->
+          <!--  -->
+          
+          <!--  -->
+          <!-- <div class="row dashboard-element Date" id="date-section">
+            <div class="row" id="calendar">
+              <div>
+                <h6 class="text-center border-bottom border-white">
+                  <b>Select Date</b>
+                </h6>
+              </div>
+              <div class="form-group starttime">
+                <input type="date" name="date" class="form-control" value="2022-11-22" id="startDate" />
+              </div>
+            </div>
+          </div> -->
+          <!--  -->
+          <div class="row dashboard-element" id="selected-sensors-description">
+            <div>
+              <h6 class="text-center border-bottom border-white">
+                <b>Compare two lanes</b>
+              </h6>
+            </div>
+            <div>
+              <p style="color:#25396f; margin-top: 6px">
+                Please click on two sensor locations on the map to see flow and
+                occupancy data at one minute interval.
+              </p>
+            </div>
+          </div>
+          <!--  -->
+          <div class="row dashboard-element" id="visualization_description2">
+            <div>
+              <h6 class="text-center border-bottom border-white">
+                <b>Data Description</b>
+              </h6>
+            </div> 
+            <!-- Traffic parameters visualized here are: -->
+            <div>
+              <p style="color:#25396f; margin-top: 6px">
+                <b>Flow-</b> denotes No of vehicles passing through sensor at
+                certain time interval <br />  <br>
+                <b>Occupancy</b> - denotes how long vehicles are spending time
+                over the sensors (expressed as %)
+              </p>
+            </div>
+          </div>
+          <!--  -->
+          <div class="row dashboard-element" id="datasource_description2">
+            <div>
+              <h6 class="text-center border-bottom border-white">
+                <b>Data Source</b>
+              </h6>
+            </div>
+            <div>
+              <p style="color:#25396f; margin-top: 6px"> 
+              <a href="http://alfried.net/ueber-das-projekt/" target="_blank" style="color: #25396f; text-decoration: none;"><b>ALFRIED Project</b> </a>: Automated and Connected Driving in Logistics at the Friedrichshafen Test Area</p>
+            </div>
+          </div>
+          <!--  -->
+          <div class="row dashboard-element" id="author2">
+            <div>
+              <h8 class="text-center border-bottom border-white">
+                <b>Designed by </b>
+              </h8>
+             <p style="color:#25396f; margin-top: 6px; margin-bottom: 0px; display: inline-block;"> 
+                <a href="https://np.linkedin.com/in/shristi-paudel-53478013b" target="_blank" style="color: #25396f; text-decoration: none;"> : Shristi Paudel</a>
+              </p>
+              <!-- <p style="font-size: 11px;color:#25396f; margin-top: 2px;">MPG, HFT Stuttgart</p> -->
+            </div>
+          </div>
+          <!--  -->
+        </div>
+            <!-- 1container- two 3 main rows ---and divide each row to column -->
+            <div class="col-xl-10" id="dashboard">
+                <div class="row dashboard-subelement" id="uppersection1">
+                    <div class="col-xl-6">
+                        <div id="map"></div>
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="row dashboard-element" id="chartblockA">
+                            <div id="scatter-plot"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row dashboard-subelement" id="lowersection2">
+                    <div class="row dashboard-element" id="chartblockB">
+                        <div> <button id="one_hour">1h</button>
+                            <button id="twelve_hour">12h</button>
+                            <button id="one_day">1D</button>
+                            <button id="all">All</button>
+                        </div>
+                        <div id="line-chart-flow">
+
+                        </div>
+                    </div>
+                    <div class="row dashboard-element" id="chartblockC">
+                        <div id="line-chart-occupancy"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- 
+            <div class="row display-flex">
+                <div class="col-xl-6">
+                    <div id="map"></div>
+                </div>
+                <div class="col-xl-6">
+
+                    <div class="row dashboard-element" id="chartblock3">
+                        <div id="scatter-plot"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row dashboard-element" id="chartblock1">
+                <div id="line-chart-flow">
+                    <div> <button id="one_hour">1h</button>
+                        <button id="twelve_hour">12h</button>
+                        <button id="one_day">1D</button>
+                        <button id="all">all</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row dashboard-element" id="chartblock2">
+                <div id="line-chart-occupancy"></div>
+            </div>
+        </div> -->
+        </div>
+
+</body>
+<!-- script files  -->
+
+<!-- externalcdn -->
+
+<!-- turf -->
+<script src="https://cdn.jsdelivr.net/npm/@turf/turf"></script>
+
+<!-- jquery js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"></script> -->
+
+<!-- bootstrap js -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+<!-- leaflet js -->
+<script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+
+<!-- ajax jquery for leaflet- map load
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>  -->
+
+<!-- d3.js -->
+<script src="https://d3js.org/d3.v3.min.js"></script>
+
+<!-- axios -->
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+<!-- leaflet browser print  -->
+<script src="/lib/js/externalFiles/leaflet.browser.print.min.js"></script>
+
+
+<script src="/lib/js/externalFiles/leaflet-sidebar.min.js"></script>
+
+<!-- noUiSlider js -->
+<script src="./lib/js/externalFiles/nouislider.min.js"></script>
+
+<!--apexcharts-->
+<script src="./lib/js/externalFiles/apexcharts.min.js"></script>
+
+<!-- echarts -->
+<script src="./lib/js/externalFiles/echarts.min.js"></script>
+
+<!-- zoom home leaflet -->
+<script src="./lib/js/externalFiles/leaflet.zoomhome.min.js"></script>
+
+<!-- local js files-->
+<script src="./lib/js/apexchartstemplate.js"></script>
+<script src="./lib/js/echartstemplate.js"></script>
+<!-- <script src="./lib/js/events.js"></script> -->
+<script src="./lib/js/linechartpage.js "></script>
+
+</html>

@@ -1,0 +1,5104 @@
+ {
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2022-11-09T13:41:53Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/25635053",
+        "crossing": "traffic_signals",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4966418,
+          47.6588867
+        ]
+      },
+      "id": "node/25635053"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/27484180",
+        "crossing": "unmarked",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4980239,
+          47.6557655
+        ]
+      },
+      "id": "node/27484180"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/27484181",
+        "crossing": "unmarked",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4985014,
+          47.6557813
+        ]
+      },
+      "id": "node/27484181"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/27590383",
+        "crossing": "unmarked",
+        "crossing:island": "yes",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4831039,
+          47.6520579
+        ]
+      },
+      "id": "node/27590383"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/29791507",
+        "button_operated": "yes",
+        "crossing": "traffic_signals",
+        "crossing:island": "no",
+        "highway": "crossing",
+        "tactile_paving": "yes",
+        "traffic_signals:sound": "no",
+        "traffic_signals:vibration": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4926503,
+          47.6516761
+        ]
+      },
+      "id": "node/29791507"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/49275919",
+        "button_operated": "yes",
+        "crossing": "traffic_signals",
+        "crossing:island": "yes",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4739725,
+          47.6606769
+        ]
+      },
+      "id": "node/49275919"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/78267605",
+        "crossing": "marked",
+        "crossing:island": "no",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4580913,
+          47.6546425
+        ]
+      },
+      "id": "node/78267605"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/99982298",
+        "crossing": "marked",
+        "crossing:island": "yes",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4753006,
+          47.6539744
+        ]
+      },
+      "id": "node/99982298"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/99982299",
+        "crossing": "traffic_signals",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4739772,
+          47.6542039
+        ]
+      },
+      "id": "node/99982299"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/128453100",
+        "crossing": "unmarked",
+        "crossing:island": "yes",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4787903,
+          47.6648996
+        ]
+      },
+      "id": "node/128453100"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/128453138",
+        "crossing": "marked",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4801645,
+          47.6651464
+        ]
+      },
+      "id": "node/128453138"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/144028973",
+        "crossing": "zebra",
+        "crossing:island": "no",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4780294,
+          47.6543615
+        ]
+      },
+      "id": "node/144028973"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/144029062",
+        "TMC:cid_58:tabcd_1:Class": "Point",
+        "TMC:cid_58:tabcd_1:Direction": "both",
+        "TMC:cid_58:tabcd_1:LCLversion": "14.0",
+        "TMC:cid_58:tabcd_1:LocationCode": "15028",
+        "TMC:cid_58:tabcd_1:PrevLocationCode": "52881",
+        "button_operated": "yes",
+        "crossing": "traffic_signals",
+        "highway": "crossing",
+        "tactile_paving": "no",
+        "traffic_signals:sound": "no",
+        "traffic_signals:vibration": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4823504,
+          47.6536532
+        ]
+      },
+      "id": "node/144029062"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/144046636",
+        "button_operated": "yes",
+        "crossing": "traffic_signals",
+        "highway": "crossing",
+        "tactile_paving": "yes",
+        "traffic_signals:sound": "yes",
+        "traffic_signals:vibration": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4822484,
+          47.6534697
+        ]
+      },
+      "id": "node/144046636"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/166586111",
+        "crossing": "unmarked",
+        "highway": "crossing",
+        "kerb": "lowered",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4834728,
+          47.6540484
+        ]
+      },
+      "id": "node/166586111"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/166586126",
+        "crossing": "unmarked",
+        "highway": "crossing",
+        "kerb": "flush",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4848848,
+          47.6545332
+        ]
+      },
+      "id": "node/166586126"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/171686820",
+        "bicycle": "yes",
+        "crossing": "traffic_signals",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4969203,
+          47.6589236
+        ]
+      },
+      "id": "node/171686820"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/181315585",
+        "bicycle": "yes",
+        "crossing": "traffic_signals",
+        "crossing:island": "no",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4981741,
+          47.6592573
+        ]
+      },
+      "id": "node/181315585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/206180500",
+        "crossing": "uncontrolled",
+        "crossing:island": "yes",
+        "crossing_ref": "zebra",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.499844,
+          47.6582596
+        ]
+      },
+      "id": "node/206180500"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/220825678",
+        "crossing": "traffic_signals",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4734317,
+          47.6587772
+        ]
+      },
+      "id": "node/220825678"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/257154930",
+        "crossing": "uncontrolled",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4471397,
+          47.6584369
+        ]
+      },
+      "id": "node/257154930"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/258889507",
+        "crossing": "uncontrolled",
+        "crossing:island": "yes",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4955989,
+          47.650545
+        ]
+      },
+      "id": "node/258889507"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/262986866",
+        "crossing": "traffic_signals",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4736957,
+          47.6587861
+        ]
+      },
+      "id": "node/262986866"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/262986870",
+        "crossing": "traffic_signals",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4741222,
+          47.6572824
+        ]
+      },
+      "id": "node/262986870"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/262986872",
+        "crossing": "traffic_signals",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4743048,
+          47.6573103
+        ]
+      },
+      "id": "node/262986872"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/264130539",
+        "button_operated": "yes",
+        "crossing": "traffic_signals",
+        "crossing:island": "no",
+        "highway": "crossing",
+        "kerb": "flush",
+        "tactile_paving": "no",
+        "traffic_signals:sound": "yes",
+        "traffic_signals:vibration": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4772129,
+          47.6518429
+        ]
+      },
+      "id": "node/264130539"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/264553088",
+        "button_operated": "yes",
+        "crossing": "traffic_signals",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "no",
+        "traffic_signals:sound": "yes",
+        "traffic_signals:vibration": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4518463,
+          47.6574904
+        ]
+      },
+      "id": "node/264553088"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/264553095",
+        "crossing": "uncontrolled",
+        "crossing:island": "no",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4484295,
+          47.6583387
+        ]
+      },
+      "id": "node/264553095"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/264553100",
+        "crossing": "uncontrolled",
+        "crossing:island": "no",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4457243,
+          47.6588271
+        ]
+      },
+      "id": "node/264553100"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/264553278",
+        "button_operated": "yes",
+        "crossing": "traffic_signals",
+        "highway": "crossing",
+        "tactile_paving": "no",
+        "traffic_signals:sound": "yes",
+        "traffic_signals:vibration": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4519986,
+          47.6574208
+        ]
+      },
+      "id": "node/264553278"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/280507608",
+        "crossing": "traffic_signals",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4724114,
+          47.6571879
+        ]
+      },
+      "id": "node/280507608"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/298897817",
+        "crossing": "marked",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4824696,
+          47.6646267
+        ]
+      },
+      "id": "node/298897817"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/303729590",
+        "crossing": "marked",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4804008,
+          47.6648052
+        ]
+      },
+      "id": "node/303729590"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/303945908",
+        "crossing": "marked",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4844407,
+          47.6647766
+        ]
+      },
+      "id": "node/303945908"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/338463832",
+        "crossing": "marked",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4870284,
+          47.6657342
+        ]
+      },
+      "id": "node/338463832"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/360755687",
+        "crossing": "traffic_signals",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.5005262,
+          47.6548174
+        ]
+      },
+      "id": "node/360755687"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/360755703",
+        "crossing": "traffic_signals",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4952583,
+          47.6554567
+        ]
+      },
+      "id": "node/360755703"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/360755704",
+        "button_operated": "yes",
+        "crossing": "traffic_signals",
+        "highway": "crossing",
+        "tactile_paving": "yes",
+        "traffic_signals:sound": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4926923,
+          47.6550495
+        ]
+      },
+      "id": "node/360755704"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/370186623",
+        "crossing": "marked",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.5056393,
+          47.6754027
+        ]
+      },
+      "id": "node/370186623"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/387796198",
+        "crossing": "uncontrolled",
+        "crossing:island": "yes",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.5064391,
+          47.6649061
+        ]
+      },
+      "id": "node/387796198"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/473851619",
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4980178,
+          47.6619614
+        ]
+      },
+      "id": "node/473851619"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/473851620",
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4978474,
+          47.6621111
+        ]
+      },
+      "id": "node/473851620"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/473851621",
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4974832,
+          47.662071
+        ]
+      },
+      "id": "node/473851621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/583388946",
+        "crossing": "traffic_signals",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4987212,
+          47.6747161
+        ]
+      },
+      "id": "node/583388946"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/600452461",
+        "crossing": "marked",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4867047,
+          47.6653556
+        ]
+      },
+      "id": "node/600452461"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/600452462",
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4873429,
+          47.665555
+        ]
+      },
+      "id": "node/600452462"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/600452463",
+        "crossing": "marked",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4876186,
+          47.6655758
+        ]
+      },
+      "id": "node/600452463"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/600471298",
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4977236,
+          47.6617203
+        ]
+      },
+      "id": "node/600471298"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/603171886",
+        "crossing": "marked",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4666264,
+          47.6663677
+        ]
+      },
+      "id": "node/603171886"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/617002819",
+        "crossing": "traffic_signals",
+        "crossing:island": "yes",
+        "highway": "crossing",
+        "tactile_paving": "no",
+        "traffic_signals:sound": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4716232,
+          47.6564215
+        ]
+      },
+      "id": "node/617002819"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/713675836",
+        "crossing": "marked",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4634151,
+          47.6579963
+        ]
+      },
+      "id": "node/713675836"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/713675869",
+        "button_operated": "yes",
+        "crossing": "traffic_signals",
+        "crossing:island": "yes",
+        "highway": "crossing",
+        "tactile_paving": "yes",
+        "traffic_signals:sound": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4602982,
+          47.6563584
+        ]
+      },
+      "id": "node/713675869"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/713675922",
+        "crossing": "marked",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "no",
+        "traffic_calming": "table"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4637906,
+          47.6579324
+        ]
+      },
+      "id": "node/713675922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/713845700",
+        "crossing": "traffic_signals",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4814621,
+          47.6586141
+        ]
+      },
+      "id": "node/713845700"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/725281469",
+        "crossing": "unmarked",
+        "highway": "crossing",
+        "kerb": "lowered",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4799197,
+          47.6700013
+        ]
+      },
+      "id": "node/725281469"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/741417507",
+        "crossing": "unmarked",
+        "crossing:island": "no",
+        "highway": "crossing",
+        "kerb": "flush",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4785235,
+          47.6655623
+        ]
+      },
+      "id": "node/741417507"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1082639609",
+        "crossing": "traffic_signals",
+        "crossing:island": "yes",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4694575,
+          47.6521645
+        ]
+      },
+      "id": "node/1082639609"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1403954675",
+        "crossing": "marked",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4929598,
+          47.666482
+        ]
+      },
+      "id": "node/1403954675"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1406871630",
+        "bicycle": "yes",
+        "crossing": "marked",
+        "highway": "crossing",
+        "kerb": "lowered"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4800388,
+          47.6704843
+        ]
+      },
+      "id": "node/1406871630"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1406871657",
+        "crossing": "unmarked",
+        "crossing:island": "no",
+        "highway": "crossing",
+        "kerb": "lowered",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.480086,
+          47.6745835
+        ]
+      },
+      "id": "node/1406871657"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1406871673",
+        "crossing": "unmarked",
+        "crossing:island": "no",
+        "highway": "crossing",
+        "kerb": "flush",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.480128,
+          47.6765575
+        ]
+      },
+      "id": "node/1406871673"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1477970491",
+        "crossing": "traffic_signals",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4816227,
+          47.658473
+        ]
+      },
+      "id": "node/1477970491"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1477970497",
+        "crossing": "traffic_signals",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4835805,
+          47.6626986
+        ]
+      },
+      "id": "node/1477970497"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1477978268",
+        "crossing": "traffic_signals",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4814497,
+          47.6584925
+        ]
+      },
+      "id": "node/1477978268"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1477978271",
+        "bicycle": "yes",
+        "crossing": "marked",
+        "highway": "crossing",
+        "kerb": "lowered"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4812954,
+          47.6595319
+        ]
+      },
+      "id": "node/1477978271"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1477978287",
+        "crossing": "traffic_signals",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4833822,
+          47.6627629
+        ]
+      },
+      "id": "node/1477978287"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1486973863",
+        "crossing": "marked",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4928521,
+          47.6664862
+        ]
+      },
+      "id": "node/1486973863"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1486973869",
+        "crossing": "unmarked",
+        "highway": "crossing",
+        "kerb": "flush",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4912666,
+          47.6736685
+        ]
+      },
+      "id": "node/1486973869"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1581743046",
+        "crossing": "unmarked",
+        "crossing:island": "no",
+        "highway": "crossing",
+        "kerb": "lowered",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4485483,
+          47.6604441
+        ]
+      },
+      "id": "node/1581743046"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1895253786",
+        "crossing": "uncontrolled",
+        "crossing:island": "yes",
+        "crossing_ref": "zebra",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4999615,
+          47.6582071
+        ]
+      },
+      "id": "node/1895253786"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2037239520",
+        "crossing": "traffic_signals",
+        "crossing:island": "yes",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.491695,
+          47.6745515
+        ]
+      },
+      "id": "node/2037239520"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2041017068",
+        "crossing": "marked",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4908705,
+          47.670456
+        ]
+      },
+      "id": "node/2041017068"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2045917779",
+        "button_operated": "yes",
+        "crossing": "traffic_signals",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4714896,
+          47.6564802
+        ]
+      },
+      "id": "node/2045917779"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2050239485",
+        "crossing": "traffic_signals",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4989014,
+          47.674681
+        ]
+      },
+      "id": "node/2050239485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2050321808",
+        "crossing": "zebra",
+        "crossing:island": "yes",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4661975,
+          47.655346
+        ]
+      },
+      "id": "node/2050321808"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2055813467",
+        "crossing": "marked",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4798666,
+          47.6648844
+        ]
+      },
+      "id": "node/2055813467"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2060551076",
+        "crossing": "marked",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "no",
+        "traffic_calming": "table"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4634908,
+          47.6582653
+        ]
+      },
+      "id": "node/2060551076"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2061774543",
+        "crossing": "marked",
+        "crossing:island": "yes",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4801239,
+          47.6767851
+        ]
+      },
+      "id": "node/2061774543"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2174102638",
+        "crossing": "uncontrolled",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4780875,
+          47.6582203
+        ]
+      },
+      "id": "node/2174102638"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2193083158",
+        "button_operated": "yes",
+        "crossing": "traffic_signals",
+        "crossing:island": "no",
+        "highway": "crossing",
+        "tactile_paving": "no",
+        "traffic_signals:sound": "yes",
+        "traffic_signals:vibration": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4754745,
+          47.6519935
+        ]
+      },
+      "id": "node/2193083158"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2193083162",
+        "button_operated": "yes",
+        "crossing": "traffic_signals",
+        "crossing:island": "no",
+        "highway": "crossing",
+        "tactile_paving": "no",
+        "traffic_signals:sound": "yes",
+        "traffic_signals:vibration": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4756451,
+          47.6520473
+        ]
+      },
+      "id": "node/2193083162"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2262027713",
+        "crossing": "uncontrolled",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4526968,
+          47.6579465
+        ]
+      },
+      "id": "node/2262027713"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2262033569",
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4753437,
+          47.6650324
+        ]
+      },
+      "id": "node/2262033569"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2281239747",
+        "crossing": "unmarked",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4684877,
+          47.6550735
+        ]
+      },
+      "id": "node/2281239747"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2360921938",
+        "crossing": "marked",
+        "crossing:island": "yes",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4740225,
+          47.6520568
+        ]
+      },
+      "id": "node/2360921938"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2360921941",
+        "crossing": "unmarked",
+        "crossing:island": "yes",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4726324,
+          47.6521238
+        ]
+      },
+      "id": "node/2360921941"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2511302391",
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "lit": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4756297,
+          47.6647668
+        ]
+      },
+      "id": "node/2511302391"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2511302399",
+        "button_operated": "yes",
+        "crossing": "traffic_signals",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4756305,
+          47.6648506
+        ]
+      },
+      "id": "node/2511302399"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2511302412",
+        "button_operated": "yes",
+        "crossing": "traffic_signals",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4756423,
+          47.6649239
+        ]
+      },
+      "id": "node/2511302412"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2511302441",
+        "crossing": "traffic_signals",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4752769,
+          47.6660962
+        ]
+      },
+      "id": "node/2511302441"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2511302452",
+        "crossing": "marked",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4751951,
+          47.6661931
+        ]
+      },
+      "id": "node/2511302452"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2594369620",
+        "bicycle": "yes",
+        "crossing": "uncontrolled",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4973433,
+          47.6592231
+        ]
+      },
+      "id": "node/2594369620"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2594369639",
+        "bicycle": "yes",
+        "crossing": "uncontrolled",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.49682,
+          47.6590187
+        ]
+      },
+      "id": "node/2594369639"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2604377382",
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4916876,
+          47.6616283
+        ]
+      },
+      "id": "node/2604377382"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2604377383",
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4918069,
+          47.6617383
+        ]
+      },
+      "id": "node/2604377383"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2604377384",
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4918918,
+          47.6617836
+        ]
+      },
+      "id": "node/2604377384"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2604377386",
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.49204,
+          47.6620416
+        ]
+      },
+      "id": "node/2604377386"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2604377387",
+        "crossing": "marked",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4919013,
+          47.6620818
+        ]
+      },
+      "id": "node/2604377387"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2604377388",
+        "crossing": "marked",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4918063,
+          47.6621121
+        ]
+      },
+      "id": "node/2604377388"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2915489455",
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4974382,
+          47.6618193
+        ]
+      },
+      "id": "node/2915489455"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2917257221",
+        "crossing": "marked",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4931603,
+          47.6662322
+        ]
+      },
+      "id": "node/2917257221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2917257249",
+        "crossing": "marked",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4931269,
+          47.6661593
+        ]
+      },
+      "id": "node/2917257249"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2927393535",
+        "crossing": "marked",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "no",
+        "traffic_calming": "table"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4639247,
+          47.6582413
+        ]
+      },
+      "id": "node/2927393535"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2987856958",
+        "crossing": "marked",
+        "crossing_ref": "zebra",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.497801,
+          47.6498678
+        ]
+      },
+      "id": "node/2987856958"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2987857163",
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.5018973,
+          47.6511042
+        ]
+      },
+      "id": "node/2987857163"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3058135762",
+        "crossing": "unmarked",
+        "crossing:island": "no",
+        "highway": "crossing",
+        "kerb": "lowered",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4520003,
+          47.6606423
+        ]
+      },
+      "id": "node/3058135762"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3058135770",
+        "crossing": "unmarked",
+        "crossing:island": "no",
+        "highway": "crossing",
+        "kerb": "lowered",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4504274,
+          47.6607283
+        ]
+      },
+      "id": "node/3058135770"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3058135778",
+        "crossing": "unmarked",
+        "crossing:island": "no",
+        "highway": "crossing",
+        "kerb": "lowered",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4510857,
+          47.6608324
+        ]
+      },
+      "id": "node/3058135778"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3103375836",
+        "crossing": "traffic_signals",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4534168,
+          47.6575873
+        ]
+      },
+      "id": "node/3103375836"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3171869845",
+        "crossing": "traffic_signals",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4996333,
+          47.6599647
+        ]
+      },
+      "id": "node/3171869845"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3184112395",
+        "button_operated": "yes",
+        "crossing": "traffic_signals",
+        "highway": "crossing",
+        "tactile_paving": "yes",
+        "traffic_signals:sound": "yes",
+        "traffic_signals:vibration": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.481981,
+          47.653381
+        ]
+      },
+      "id": "node/3184112395"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3184112396",
+        "button_operated": "yes",
+        "crossing": "traffic_signals",
+        "highway": "crossing",
+        "tactile_paving": "yes",
+        "traffic_signals:sound": "yes",
+        "traffic_signals:vibration": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4819095,
+          47.6534323
+        ]
+      },
+      "id": "node/3184112396"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3184112402",
+        "crossing": "marked",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.481342,
+          47.6640597
+        ]
+      },
+      "id": "node/3184112402"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3226073723",
+        "crossing": "uncontrolled",
+        "crossing:island": "yes",
+        "crossing_ref": "zebra",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4996756,
+          47.6583229
+        ]
+      },
+      "id": "node/3226073723"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3226073724",
+        "button_operated": "yes",
+        "crossing": "traffic_signals",
+        "highway": "crossing",
+        "tactile_paving": "no",
+        "traffic_signals:sound": "yes",
+        "traffic_signals:vibration": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4752354,
+          47.6647845
+        ]
+      },
+      "id": "node/3226073724"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3226073725",
+        "button_operated": "yes",
+        "crossing": "traffic_signals",
+        "highway": "crossing",
+        "tactile_paving": "no",
+        "traffic_signals:sound": "yes",
+        "traffic_signals:vibration": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4752859,
+          47.6648554
+        ]
+      },
+      "id": "node/3226073725"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3226073726",
+        "button_operated": "yes",
+        "crossing": "traffic_signals",
+        "highway": "crossing",
+        "tactile_paving": "no",
+        "traffic_signals:sound": "yes",
+        "traffic_signals:vibration": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4753353,
+          47.6649246
+        ]
+      },
+      "id": "node/3226073726"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3272711271",
+        "crossing": "marked",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4915898,
+          47.6617412
+        ]
+      },
+      "id": "node/3272711271"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3272711272",
+        "crossing": "marked",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4914919,
+          47.6617862
+        ]
+      },
+      "id": "node/3272711272"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3624725678",
+        "crossing": "marked",
+        "crossing:island": "no",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4960211,
+          47.6504148
+        ]
+      },
+      "id": "node/3624725678"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3626521633",
+        "crossing": "uncontrolled",
+        "crossing:island": "yes",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4937371,
+          47.6512499
+        ]
+      },
+      "id": "node/3626521633"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3719056669",
+        "crossing": "marked",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.491459,
+          47.6620523
+        ]
+      },
+      "id": "node/3719056669"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3769425089",
+        "crossing": "marked",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4896151,
+          47.667232
+        ]
+      },
+      "id": "node/3769425089"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3769425092",
+        "crossing": "marked",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4899856,
+          47.6675877
+        ]
+      },
+      "id": "node/3769425092"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3769425096",
+        "crossing": "marked",
+        "crossing_ref": "zebra",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4872999,
+          47.6659143
+        ]
+      },
+      "id": "node/3769425096"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3769425154",
+        "crossing": "marked",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4900225,
+          47.6672511
+        ]
+      },
+      "id": "node/3769425154"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3769425257",
+        "crossing": "marked",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4896128,
+          47.6675441
+        ]
+      },
+      "id": "node/3769425257"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3770224545",
+        "crossing": "marked",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4905551,
+          47.6702517
+        ]
+      },
+      "id": "node/3770224545"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3770229858",
+        "crossing": "traffic_signals",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.49226,
+          47.6760691
+        ]
+      },
+      "id": "node/3770229858"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3770229871",
+        "crossing": "marked",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4906469,
+          47.6702506
+        ]
+      },
+      "id": "node/3770229871"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3796637532",
+        "button_operated": "no",
+        "crossing": "traffic_signals",
+        "crossing:island": "no",
+        "highway": "crossing",
+        "tactile_paving": "yes",
+        "traffic_signals:sound": "yes",
+        "traffic_signals:vibration": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4783987,
+          47.6519411
+        ]
+      },
+      "id": "node/3796637532"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3860639498",
+        "crossing": "marked",
+        "crossing:island": "yes",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4712622,
+          47.65219
+        ]
+      },
+      "id": "node/3860639498"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4185131434",
+        "crossing": "marked",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4866142,
+          47.6656016
+        ]
+      },
+      "id": "node/4185131434"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4675574336",
+        "crossing": "marked",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.482053,
+          47.6551052
+        ]
+      },
+      "id": "node/4675574336"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4675574354",
+        "bicycle": "yes",
+        "crossing": "uncontrolled",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4819415,
+          47.6572612
+        ]
+      },
+      "id": "node/4675574354"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4675574362",
+        "crossing": "marked",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4818916,
+          47.6550714
+        ]
+      },
+      "id": "node/4675574362"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4675574366",
+        "crossing": "traffic_signals",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.481972,
+          47.6574078
+        ]
+      },
+      "id": "node/4675574366"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4675574371",
+        "crossing": "traffic_signals",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4817437,
+          47.6584858
+        ]
+      },
+      "id": "node/4675574371"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4675574378",
+        "crossing": "traffic_signals",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4813333,
+          47.658501
+        ]
+      },
+      "id": "node/4675574378"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4793074198",
+        "crossing": "marked",
+        "crossing_ref": "zebra",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4857117,
+          47.6610249
+        ]
+      },
+      "id": "node/4793074198"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4793074199",
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.485718,
+          47.661206
+        ]
+      },
+      "id": "node/4793074199"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4793074200",
+        "crossing": "zebra",
+        "crossing_ref": "zebra",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4859659,
+          47.6611847
+        ]
+      },
+      "id": "node/4793074200"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4793074201",
+        "crossing": "marked",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4859736,
+          47.6610342
+        ]
+      },
+      "id": "node/4793074201"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4793074621",
+        "crossing": "traffic_signals",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4841466,
+          47.658803
+        ]
+      },
+      "id": "node/4793074621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5096205501",
+        "crossing": "marked",
+        "crossing_ref": "zebra",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4877055,
+          47.6658956
+        ]
+      },
+      "id": "node/5096205501"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5099373271",
+        "crossing": "marked",
+        "crossing_ref": "zebra",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4876509,
+          47.6658695
+        ]
+      },
+      "id": "node/5099373271"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5184009044",
+        "crossing": "marked",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4818108,
+          47.6639613
+        ]
+      },
+      "id": "node/5184009044"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5184009047",
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4816755,
+          47.6637711
+        ]
+      },
+      "id": "node/5184009047"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5184009050",
+        "crossing": "marked",
+        "crossing_ref": "zebra",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4812946,
+          47.6638474
+        ]
+      },
+      "id": "node/5184009050"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5235319806",
+        "button_operated": "yes",
+        "crossing": "traffic_signals",
+        "crossing:island": "no",
+        "highway": "crossing",
+        "tactile_paving": "yes",
+        "traffic_signals:sound": "yes",
+        "traffic_signals:vibration": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4495337,
+          47.6699421
+        ]
+      },
+      "id": "node/5235319806"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5235363731",
+        "crossing": "traffic_signals",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4982663,
+          47.6594788
+        ]
+      },
+      "id": "node/5235363731"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5235363734",
+        "crossing": "traffic_signals",
+        "crossing:island": "no",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.49623,
+          47.6587341
+        ]
+      },
+      "id": "node/5235363734"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5235363737",
+        "crossing": "marked",
+        "crossing:island": "yes",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4854445,
+          47.6640712
+        ]
+      },
+      "id": "node/5235363737"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5358462191",
+        "crossing": "marked",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4915429,
+          47.6620907
+        ]
+      },
+      "id": "node/5358462191"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5434810264",
+        "crossing": "zebra",
+        "crossing:island": "yes",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4666709,
+          47.6551929
+        ]
+      },
+      "id": "node/5434810264"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5434810265",
+        "crossing": "zebra",
+        "crossing:island": "no",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4664818,
+          47.6553385
+        ]
+      },
+      "id": "node/5434810265"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5434810266",
+        "crossing": "zebra",
+        "crossing:island": "no",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4664016,
+          47.6550105
+        ]
+      },
+      "id": "node/5434810266"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5486311209",
+        "crossing": "zebra",
+        "crossing:island": "yes",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4758129,
+          47.6539619
+        ]
+      },
+      "id": "node/5486311209"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5486311210",
+        "check_date:crossing": "2022-10-19",
+        "crossing": "zebra",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.475563,
+          47.6537529
+        ]
+      },
+      "id": "node/5486311210"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5486311211",
+        "check_date:crossing": "2022-10-19",
+        "crossing": "zebra",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4756716,
+          47.6537729
+        ]
+      },
+      "id": "node/5486311211"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6057040748",
+        "crossing": "zebra",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4820106,
+          47.6544751
+        ]
+      },
+      "id": "node/6057040748"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6157219599",
+        "button_operated": "yes",
+        "crossing": "traffic_signals",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4736428,
+          47.6596436
+        ]
+      },
+      "id": "node/6157219599"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6159087098",
+        "crossing": "traffic_signals",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4736526,
+          47.6586113
+        ]
+      },
+      "id": "node/6159087098"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6162351825",
+        "crossing": "uncontrolled",
+        "crossing:island": "yes",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4560219,
+          47.657222
+        ]
+      },
+      "id": "node/6162351825"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6221028577",
+        "crossing": "marked",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4876791,
+          47.6656113
+        ]
+      },
+      "id": "node/6221028577"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6221028581",
+        "crossing": "marked",
+        "crossing_ref": "zebra",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4877606,
+          47.6658348
+        ]
+      },
+      "id": "node/6221028581"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6221028582",
+        "crossing": "marked",
+        "crossing_ref": "zebra",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4877248,
+          47.6658187
+        ]
+      },
+      "id": "node/6221028582"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6221032585",
+        "crossing": "marked",
+        "crossing_ref": "zebra",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4872409,
+          47.665887
+        ]
+      },
+      "id": "node/6221032585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6221691908",
+        "crossing": "marked",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4859393,
+          47.6610081
+        ]
+      },
+      "id": "node/6221691908"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6221719156",
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4872851,
+          47.6655739
+        ]
+      },
+      "id": "node/6221719156"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6221743567",
+        "crossing": "marked",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4876787,
+          47.6595141
+        ]
+      },
+      "id": "node/6221743567"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6221743568",
+        "crossing": "marked",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4875623,
+          47.6595041
+        ]
+      },
+      "id": "node/6221743568"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6221743570",
+        "crossing": "marked",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4873019,
+          47.6596392
+        ]
+      },
+      "id": "node/6221743570"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6221743571",
+        "crossing": "marked",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4873434,
+          47.6595868
+        ]
+      },
+      "id": "node/6221743571"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6221743575",
+        "crossing": "marked",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4874086,
+          47.659859
+        ]
+      },
+      "id": "node/6221743575"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6221743576",
+        "crossing": "marked",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.48749,
+          47.6598875
+        ]
+      },
+      "id": "node/6221743576"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6222417810",
+        "crossing": "marked",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4899235,
+          47.6675988
+        ]
+      },
+      "id": "node/6222417810"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6222417813",
+        "crossing": "marked",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4900715,
+          47.6672882
+        ]
+      },
+      "id": "node/6222417813"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6222417816",
+        "crossing": "marked",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4896661,
+          47.6672076
+        ]
+      },
+      "id": "node/6222417816"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6222421603",
+        "crossing": "marked",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.481377,
+          47.6640856
+        ]
+      },
+      "id": "node/6222421603"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6222421608",
+        "crossing": "marked",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4817895,
+          47.6640095
+        ]
+      },
+      "id": "node/6222421608"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6222421610",
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4817269,
+          47.6637991
+        ]
+      },
+      "id": "node/6222421610"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6222424578",
+        "crossing": "marked",
+        "crossing_ref": "zebra",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4813232,
+          47.6638174
+        ]
+      },
+      "id": "node/6222424578"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6222440877",
+        "crossing": "marked",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4908489,
+          47.6705027
+        ]
+      },
+      "id": "node/6222440877"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6222536289",
+        "crossing": "marked",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4905268,
+          47.6706088
+        ]
+      },
+      "id": "node/6222536289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6222536290",
+        "crossing": "marked",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4904358,
+          47.6705837
+        ]
+      },
+      "id": "node/6222536290"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6222543237",
+        "crossing": "marked",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "traffic_calming": "table"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.463854,
+          47.6579645
+        ]
+      },
+      "id": "node/6222543237"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6233294085",
+        "crossing": "marked",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.479854,
+          47.6649358
+        ]
+      },
+      "id": "node/6233294085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6233294089",
+        "crossing": "marked",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4800974,
+          47.6651417
+        ]
+      },
+      "id": "node/6233294089"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6233294093",
+        "crossing": "marked",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4804492,
+          47.6648354
+        ]
+      },
+      "id": "node/6233294093"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6238153660",
+        "crossing": "marked",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "no",
+        "traffic_calming": "table"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4638647,
+          47.658268
+        ]
+      },
+      "id": "node/6238153660"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6238153662",
+        "crossing": "marked",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4633855,
+          47.6580426
+        ]
+      },
+      "id": "node/6238153662"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6238170784",
+        "crossing": "marked",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "no",
+        "traffic_calming": "table"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4635455,
+          47.6582906
+        ]
+      },
+      "id": "node/6238170784"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6294210844",
+        "crossing": "traffic_signals",
+        "highway": "crossing",
+        "source": "survey 02.2019 and DigitalGlobe Imagery",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4965771,
+          47.6700381
+        ]
+      },
+      "id": "node/6294210844"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6294210845",
+        "crossing": "traffic_signals",
+        "highway": "crossing",
+        "source": "survey 02.2019 and DigitalGlobe Imagery",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4967634,
+          47.6699954
+        ]
+      },
+      "id": "node/6294210845"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6353317758",
+        "crossing": "unmarked",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.5061097,
+          47.6748132
+        ]
+      },
+      "id": "node/6353317758"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6353317762",
+        "crossing": "marked",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.5064619,
+          47.6747164
+        ]
+      },
+      "id": "node/6353317762"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6353317771",
+        "crossing": "marked",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.5044964,
+          47.6767771
+        ]
+      },
+      "id": "node/6353317771"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6353317772",
+        "crossing": "marked",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.5045844,
+          47.6768065
+        ]
+      },
+      "id": "node/6353317772"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6399613905",
+        "crossing": "uncontrolled",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4767187,
+          47.6579862
+        ]
+      },
+      "id": "node/6399613905"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6450442859",
+        "crossing": "uncontrolled",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4740118,
+          47.6697502
+        ]
+      },
+      "id": "node/6450442859"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6450442873",
+        "crossing": "unmarked",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4757525,
+          47.6682882
+        ]
+      },
+      "id": "node/6450442873"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6487604323",
+        "crossing": "marked",
+        "crossing:island": "yes",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4927134,
+          47.67072
+        ]
+      },
+      "id": "node/6487604323"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6487663198",
+        "crossing": "traffic_signals",
+        "crossing:island": "no",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4833205,
+          47.6627865
+        ]
+      },
+      "id": "node/6487663198"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6582161230",
+        "crossing": "marked",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4877945,
+          47.6598084
+        ]
+      },
+      "id": "node/6582161230"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6582161231",
+        "crossing": "marked",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4878469,
+          47.6597367
+        ]
+      },
+      "id": "node/6582161231"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6617846890",
+        "crossing": "marked",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4754138,
+          47.6541094
+        ]
+      },
+      "id": "node/6617846890"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6617846892",
+        "crossing": "marked",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4755775,
+          47.6541322
+        ]
+      },
+      "id": "node/6617846892"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6617846922",
+        "crossing": "traffic_signals",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4743078,
+          47.6574873
+        ]
+      },
+      "id": "node/6617846922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6700586511",
+        "button_operated": "yes",
+        "crossing": "traffic_signals",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4754865,
+          47.6650237
+        ]
+      },
+      "id": "node/6700586511"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6700647253",
+        "crossing": "uncontrolled",
+        "crossing:island": "yes",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4578472,
+          47.6568543
+        ]
+      },
+      "id": "node/6700647253"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6700647254",
+        "crossing": "uncontrolled",
+        "crossing:island": "yes",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4591662,
+          47.6565928
+        ]
+      },
+      "id": "node/6700647254"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7124125476",
+        "crossing": "unmarked",
+        "crossing:island": "no",
+        "highway": "crossing",
+        "kerb": "lowered",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4798298,
+          47.6664784
+        ]
+      },
+      "id": "node/7124125476"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7626887817",
+        "crossing": "marked",
+        "crossing:island": "yes",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4885249,
+          47.6648398
+        ]
+      },
+      "id": "node/7626887817"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7676925540",
+        "crossing": "marked",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4777123,
+          47.655458
+        ]
+      },
+      "id": "node/7676925540"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7676925560",
+        "crossing": "uncontrolled",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4752333,
+          47.6575313
+        ]
+      },
+      "id": "node/7676925560"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7676925565",
+        "crossing": "uncontrolled",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4767717,
+          47.6578515
+        ]
+      },
+      "id": "node/7676925565"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7676925569",
+        "crossing": "uncontrolled",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4800105,
+          47.6583625
+        ]
+      },
+      "id": "node/7676925569"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7682783040",
+        "crossing": "traffic_signals",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4815965,
+          47.6583558
+        ]
+      },
+      "id": "node/7682783040"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7817500500",
+        "crossing": "traffic_signals",
+        "crossing:island": "no",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4695253,
+          47.6522712
+        ]
+      },
+      "id": "node/7817500500"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7963766650",
+        "crossing": "traffic_signals",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4966938,
+          47.6702811
+        ]
+      },
+      "id": "node/7963766650"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7963766652",
+        "crossing": "traffic_signals",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4968858,
+          47.6702432
+        ]
+      },
+      "id": "node/7963766652"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7963766673",
+        "crossing": "marked",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4965452,
+          47.6701766
+        ]
+      },
+      "id": "node/7963766673"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7970734622",
+        "crossing": "traffic_signals",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.47008,
+          47.6548583
+        ]
+      },
+      "id": "node/7970734622"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7970734624",
+        "crossing": "traffic_signals",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4701825,
+          47.654659
+        ]
+      },
+      "id": "node/7970734624"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7970734626",
+        "crossing": "traffic_signals",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4705235,
+          47.6547824
+        ]
+      },
+      "id": "node/7970734626"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7970734629",
+        "crossing": "traffic_signals",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4704479,
+          47.6549462
+        ]
+      },
+      "id": "node/7970734629"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8041917663",
+        "crossing": "unmarked",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.469325,
+          47.6530136
+        ]
+      },
+      "id": "node/8041917663"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8041963712",
+        "crossing": "unmarked",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4694862,
+          47.6530164
+        ]
+      },
+      "id": "node/8041963712"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8041999606",
+        "crossing": "uncontrolled",
+        "crossing:island": "yes",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4661117,
+          47.6535443
+        ]
+      },
+      "id": "node/8041999606"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8041999610",
+        "crossing": "traffic_signals",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4662364,
+          47.6525067
+        ]
+      },
+      "id": "node/8041999610"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8041999613",
+        "crossing": "unmarked",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4665016,
+          47.6523891
+        ]
+      },
+      "id": "node/8041999613"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8041999621",
+        "crossing": "unmarked",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4679449,
+          47.6523982
+        ]
+      },
+      "id": "node/8041999621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8041999659",
+        "crossing": "unmarked",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4633441,
+          47.6530376
+        ]
+      },
+      "id": "node/8041999659"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8041999661",
+        "crossing": "marked",
+        "crossing:island": "no",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.46349,
+          47.6530934
+        ]
+      },
+      "id": "node/8041999661"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8127140650",
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4925309,
+          47.6640662
+        ]
+      },
+      "id": "node/8127140650"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8180079798",
+        "crossing": "traffic_signals",
+        "crossing:island": "no",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.469467,
+          47.652321
+        ]
+      },
+      "id": "node/8180079798"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8180191142",
+        "crossing": "unmarked",
+        "crossing:island": "no",
+        "highway": "crossing",
+        "kerb": "lowered",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4596054,
+          47.6539984
+        ]
+      },
+      "id": "node/8180191142"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8272242608",
+        "crossing": "marked",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.471253,
+          47.6597735
+        ]
+      },
+      "id": "node/8272242608"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8272242609",
+        "crossing": "marked",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4711691,
+          47.6597494
+        ]
+      },
+      "id": "node/8272242609"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8272244928",
+        "crossing": "marked",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4694134,
+          47.6599721
+        ]
+      },
+      "id": "node/8272244928"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8280098495",
+        "crossing": "marked",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4733907,
+          47.6588583
+        ]
+      },
+      "id": "node/8280098495"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8281273349",
+        "crossing": "traffic_signals",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.473534,
+          47.6586062
+        ]
+      },
+      "id": "node/8281273349"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8281273359",
+        "crossing": "traffic_signals",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.471443,
+          47.6565712
+        ]
+      },
+      "id": "node/8281273359"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8281273379",
+        "crossing": "traffic_signals",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4743405,
+          47.6574073
+        ]
+      },
+      "id": "node/8281273379"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8421030127",
+        "crossing": "marked",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4786069,
+          47.6520362
+        ]
+      },
+      "id": "node/8421030127"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8623650484",
+        "crossing": "marked",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4925243,
+          47.6663679
+        ]
+      },
+      "id": "node/8623650484"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8623650485",
+        "crossing": "marked",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4925178,
+          47.6663337
+        ]
+      },
+      "id": "node/8623650485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8633330400",
+        "crossing": "marked",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4894074,
+          47.6604336
+        ]
+      },
+      "id": "node/8633330400"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8633330401",
+        "crossing": "marked",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.489331,
+          47.6605058
+        ]
+      },
+      "id": "node/8633330401"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8656611391",
+        "crossing": "marked",
+        "highway": "crossing",
+        "tactile_paving": "no",
+        "traffic_calming": "table"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4791586,
+          47.6768483
+        ]
+      },
+      "id": "node/8656611391"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8679800821",
+        "crossing": "unmarked",
+        "crossing:island": "no",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4495379,
+          47.660942
+        ]
+      },
+      "id": "node/8679800821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8703014261",
+        "crossing": "marked",
+        "crossing:island": "no",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4915432,
+          47.6708251
+        ]
+      },
+      "id": "node/8703014261"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8732344524",
+        "crossing": "marked",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.5046527,
+          47.6768321
+        ]
+      },
+      "id": "node/8732344524"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8762198998",
+        "crossing": "marked",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4819995,
+          47.664469
+        ]
+      },
+      "id": "node/8762198998"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8762198999",
+        "crossing": "marked",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4821269,
+          47.6645119
+        ]
+      },
+      "id": "node/8762198999"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8762199000",
+        "crossing": "marked",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.482859,
+          47.6648027
+        ]
+      },
+      "id": "node/8762199000"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8762199001",
+        "crossing": "marked",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4832791,
+          47.664882
+        ]
+      },
+      "id": "node/8762199001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8835990854",
+        "crossing": "marked",
+        "crossing:island": "no",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4820032,
+          47.6552441
+        ]
+      },
+      "id": "node/8835990854"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8835990855",
+        "crossing": "marked",
+        "crossing:island": "no",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4819426,
+          47.6549339
+        ]
+      },
+      "id": "node/8835990855"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8835991831",
+        "crossing": "marked",
+        "crossing:island": "no",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4797146,
+          47.6546824
+        ]
+      },
+      "id": "node/8835991831"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8883676028",
+        "crossing": "unmarked",
+        "crossing:island": "no",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.452136,
+          47.6683154
+        ]
+      },
+      "id": "node/8883676028"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8906275040",
+        "crossing": "unmarked",
+        "crossing:island": "no",
+        "highway": "crossing",
+        "kerb": "lowered",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4590347,
+          47.6566691
+        ]
+      },
+      "id": "node/8906275040"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8906275049",
+        "crossing": "traffic_signals",
+        "crossing:island": "no",
+        "highway": "crossing",
+        "kerb": "lowered",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4648835,
+          47.6567892
+        ]
+      },
+      "id": "node/8906275049"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9026840885",
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4977537,
+          47.662129
+        ]
+      },
+      "id": "node/9026840885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9026848698",
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4974433,
+          47.6620252
+        ]
+      },
+      "id": "node/9026848698"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9026848701",
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4978196,
+          47.6617404
+        ]
+      },
+      "id": "node/9026848701"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9026859372",
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4980218,
+          47.6619004
+        ]
+      },
+      "id": "node/9026859372"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9026859376",
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.497496,
+          47.6617744
+        ]
+      },
+      "id": "node/9026859376"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9230908569",
+        "crossing": "traffic_signals",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4814748,
+          47.6584465
+        ]
+      },
+      "id": "node/9230908569"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9230908570",
+        "crossing": "traffic_signals",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4813483,
+          47.6584367
+        ]
+      },
+      "id": "node/9230908570"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9230908578",
+        "crossing": "uncontrolled",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4781183,
+          47.6581479
+        ]
+      },
+      "id": "node/9230908578"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9233264804",
+        "crossing": "uncontrolled",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4798345,
+          47.6584339
+        ]
+      },
+      "id": "node/9233264804"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9233264805",
+        "crossing": "uncontrolled",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4798475,
+          47.6583771
+        ]
+      },
+      "id": "node/9233264805"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9233264808",
+        "crossing": "uncontrolled",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4765283,
+          47.6579201
+        ]
+      },
+      "id": "node/9233264808"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9233264809",
+        "crossing": "uncontrolled",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4765589,
+          47.6578475
+        ]
+      },
+      "id": "node/9233264809"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9233264810",
+        "crossing": "uncontrolled",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4769858,
+          47.6579303
+        ]
+      },
+      "id": "node/9233264810"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9233264811",
+        "crossing": "uncontrolled",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4769557,
+          47.658002
+        ]
+      },
+      "id": "node/9233264811"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9233297720",
+        "button_operated": "yes",
+        "crossing": "traffic_signals",
+        "crossing:island": "yes",
+        "highway": "crossing",
+        "tactile_paving": "yes",
+        "traffic_signals:sound": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4836299,
+          47.6628456
+        ]
+      },
+      "id": "node/9233297720"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9233297723",
+        "crossing": "traffic_signals",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4834245,
+          47.6626019
+        ]
+      },
+      "id": "node/9233297723"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9362801584",
+        "crossing": "unmarked",
+        "crossing:island": "no",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.466671,
+          47.6702495
+        ]
+      },
+      "id": "node/9362801584"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9481361226",
+        "crossing": "marked",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4868226,
+          47.6656733
+        ]
+      },
+      "id": "node/9481361226"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9666940922",
+        "crossing": "marked",
+        "crossing:island": "yes",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4802088,
+          47.6747342
+        ]
+      },
+      "id": "node/9666940922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9678486656",
+        "crossing": "marked",
+        "crossing:island": "no",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4829355,
+          47.6527158
+        ]
+      },
+      "id": "node/9678486656"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9678486662",
+        "crossing": "marked",
+        "crossing:island": "no",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4833928,
+          47.6526875
+        ]
+      },
+      "id": "node/9678486662"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9678486673",
+        "crossing": "unmarked",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4859956,
+          47.652528
+        ]
+      },
+      "id": "node/9678486673"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9678486676",
+        "crossing": "unmarked",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4875606,
+          47.6525307
+        ]
+      },
+      "id": "node/9678486676"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9751881672",
+        "crossing": "unmarked",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4758591,
+          47.6743741
+        ]
+      },
+      "id": "node/9751881672"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9751881674",
+        "crossing": "unmarked",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4770602,
+          47.6744319
+        ]
+      },
+      "id": "node/9751881674"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9751881675",
+        "crossing": "unmarked",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.47783,
+          47.674469
+        ]
+      },
+      "id": "node/9751881675"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9751881676",
+        "crossing": "unmarked",
+        "crossing:island": "no",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4785619,
+          47.6745042
+        ]
+      },
+      "id": "node/9751881676"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9843829930",
+        "crossing": "marked",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4697034,
+          47.6702275
+        ]
+      },
+      "id": "node/9843829930"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10002903967",
+        "crossing": "marked",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4695834,
+          47.6522685
+        ]
+      },
+      "id": "node/10002903967"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10002945018",
+        "crossing": "marked",
+        "highway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4694225,
+          47.6529258
+        ]
+      },
+      "id": "node/10002945018"
+    }
+  ]
+}

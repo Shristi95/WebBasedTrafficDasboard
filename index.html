@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+  <!-- font-awesome -->
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+
+
+  <!-- leaflet css -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
+
+  <!-- noncdn -->
+  <!-- noUiSlider css -->
+  <link rel="stylesheet" href="./lib/css/nouislider.min.css" />
+
+  <!-- leaflet-sidebar -->
+  <!-- <link rel="stylesheet" href="./lib/css/leaflet-sidebar.min.css" /> -->
+
+  <!-- main style css  -->
+  <link rel="stylesheet" href="./lib/css/style.css" />
+
+  <!-- leaflet zoom home -->
+  <link rel="stylesheet" href="./lib/css/leaflet.zoomhome.css" />
+
+  <title>Thesis Traffic Dashboard</title>
+</head>
+
+<body>
+  <!-- navbar  -->
+  <nav class="navbar navbar-expand-xl navbar-dark custom-nav">
+    <a class="navbar-brand md-5" id="custom-title" href="index.html"><b>ALFRIED Traffic Data Dashboard</b></a>
+    <img src="./lib/img/iwt.jpg" alt="mid Logo" style="height: 50px; margin-left: 0 px">
+    <img src="./lib/img/alfried.png" alt="left Logo" style="height: 50px;  margin-left: 10px">
+    <img src="./lib/img/hftlogo.png" alt="Right Logo" style="height: 50px; margin-left: 0px">
+  </nav>
+
+  <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button> -->
+  <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto md-2 md-xl-0">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html"><b> All sensor Locations</b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="onelocation.html"><b>Selected sensor Locations</b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" aria-disabled="true"><b>About</b></a>
+        </li>
+      </ul>
+    </div> -->
+
+  <!-- main page contents -->
+  <!-- <div class="container-fluid" id="document-load">
+    <div id="map"></div>
+  </div> -->
+
+  <div class="container-fluid">
+    <!-- 1container- two 3 main rows ---and divide each row to column -->
+    <div class="row display-flex">
+      <div class="col-xl-2" id="leftbar">
+        <!--  -->
+        <div class="row dashboard-element" id="sensor-number">
+          <div>
+            <h6 class="text-center border-bottom border-white">
+              <b>Sensors</b>
+            </h6>
+          </div>
+          <div class="radiobuttons">
+            <div class="radio">
+              <input type="radio" name="variableRadio" value="all_sensors" id="all-sensors" />
+              <label for="all-sensors"> All </label>
+            </div>
+            <div class="radio">
+              <input type="radio" name="variableRadio" value="selected_sensors" id="selected-sensors" />
+              <label for="selected-sensors"> Selected</label>
+            </div>
+          </div>
+        </div>
+        <!--  -->
+        <!-- style="display: none" -->
+        <div class="row dashboard-element" id="temporal-aggregation">
+          <div>
+            <!-- <p class="text-center border-bottom border-white">
+              <b> Tips: Click sensor location on map</b>
+            </p> -->
+            <h6 class="text-center border-bottom border-white">
+              <b>Temporal Agg.</b>
+            </h6>
+          </div>
+          <div class="radiobuttons">
+            <div class="radio">
+              <input type="radio" name="variableRadio" value="aggregation_hourly" id="aggregation-hourly" />
+              <label for="aggregation-hourly"> Hourly</label>
+            </div>
+            <div class="radio">
+              <input type="radio" name="variableRadio" value="aggregation_daily" id="aggregation-daily" />
+              <label for="aggregation-daily"> Daily</label>
+            </div>
+            <!-- <div class="radio">
+              <label><input type="radio" name="variableRadio" value="aggregation_none" id="aggregation-none" />
+                None</label>
+            </div> -->
+          </div>
+        </div>
+        <!--  -->
+        <div class="row dashboard-element" id="view">
+          <div>
+            <h6 class="text-center border-bottom border-white">
+              <b>View</b>
+            </h6>
+          </div>
+          <div class="radiobuttons">
+            <div class="radio">
+              <input type="radio" name="variableRadio" value="view_time_slider" id="view-time-slider" />
+              <label for="view-time-slider"> Timeslider</label>
+            </div>
+            <div class="radio">
+              <input type="radio" name="variableRadio" value="view_heatmap_matrix" id="view-heatmap-matrix" />
+              <label for="view-heatmap-matrix"> Heatmap Matrix</label>
+            </div>
+          </div>
+        </div>
+        <!--  -->
+        <div class="row dashboard-element Date" id="date-section">
+          <div class="row" id="calendar">
+            <div>
+              <h6 class="text-center border-bottom border-white">
+                <b>Select Date</b>
+              </h6>
+            </div>
+            <div class="form-group starttime">
+              <input type="date" name="date" class="form-control" value="2022-11-22" id="startDate" />
+            </div>
+          </div>
+          <!-- <div class="row">
+            <div class="my-auto align-items-center" style="display: flex">
+              <label for="timeslider"><b class="mr-2 align-self-center">Time: </b></label>
+              <input type="range" class="form-control-range displacement-opacity" code="displacement_psi_post_desc"
+                value="100" min="0" max="100" id="timeslider" />
+              <div class="opacity-value displacement_psi_post_desc ml-2">
+                24:00
+              </div>
+            </div>
+          </div> -->
+        </div>
+        <!--  -->
+        <!-- <div class="row dashboard-element" id="selected-sensors-description">
+          <div>
+            <h6 class="text-center border-bottom border-white">
+              <b>Compare two lanes</b>
+            </h6>
+          </div>
+          <div>
+            <p style="color:#25396f; margin-top: 6px">
+              Please click on two sensor locations on the map to see flow and
+              occupancy data at one minute interval.
+            </p>
+          </div>
+        </div> -->
+        <!--  -->
+        <div class="row dashboard-element" id="visualization_description">
+          <div>
+            <h6 class="text-center border-bottom border-white">
+              <b>Data Description</b>
+            </h6>
+          </div>
+          <!-- Traffic parameters visualized here are: -->
+          <div>
+            <p style="color:#25396f; margin-top: 6px">
+              <b>Flow-</b> denotes No of vehicles passing through sensor at
+              certain time interval <br /> <br>
+              <b>Occupancy</b> - denotes how long vehicles are spending time
+              over the sensors (expressed as %)
+            </p>
+          </div>
+        </div>
+        <!--  -->
+        <div class="row dashboard-element" id="datasource_description">
+          <div>
+            <h6 class="text-center border-bottom border-white">
+              <b>Data Source</b>
+            </h6>
+          </div>
+          <div>
+            <p style="color:#25396f; margin-top: 6px"> 
+            <a href="http://alfried.net/ueber-das-projekt/" target="_blank" style="color: #25396f; text-decoration: none;"><b>ALFRIED Project</b> </a>: Automated and Connected Driving in Logistics at the Friedrichshafen Test Area</p>
+          </div>
+        </div>
+        <!--  -->
+        <div class="row dashboard-element" id="author">
+          <div>
+            <h8 class="text-center border-bottom border-white">
+              <b>Designed by </b>
+            </h8>
+           <p style="color:#25396f; margin-top: 6px; margin-bottom: 0px; display: inline-block;"> 
+              <a href="https://np.linkedin.com/in/shristi-paudel-53478013b" target="_blank" style="color: #25396f; text-decoration: none;"> : Shristi Paudel</a>
+            </p>
+            <!-- <p style="font-size: 11px;color:#25396f; margin-top: 2px;">MPG, HFT Stuttgart</p> -->
+          </div>
+        </div>
+        <!--  -->
+      </div>
+      <div class="col-xl-10" id="dashboard">
+        <div class="container-fluid" id="map2"></div>
+        <div class="row dashboard-subelement" id="uppersection">
+          <div class="col-xl-6">
+            <div id="map"></div>
+          </div>
+          <div class="col-xl-6" id="indicators-barchart">
+            <div class="row" id="indicators">
+              <div class="col-xl-2" class="indecator block" id="indecator1">
+                <h1 id="indecatorH"> 6 </h1>
+                <span> </span>
+                <p style="color:#25396f">
+                  <br />
+                  High Traffic Zones
+                </p>
+              </div>
+              <div class="col-xl-2" class="indecator block" id="indecator2">
+                <h1 id="indecatorL">8</h1>
+                <span> </span>
+                <p style="color:#25396f">
+                  <br />
+                  Low Traffic Zones
+                </p>
+              </div>
+              <!-- <div class="col-xl-2 dashboard-element">
+                                <div class="box">
+                                    <h1>Table With Lane info</h1>
+                                </div>
+                            </div> -->
+              <div class="col-xl-7">
+                <div class="card mb-4" id="table-element">
+                  <div class="card-header">
+                    <i class="fas fa-table mr-1"></i><b> Road Information</b><br />
+                    <!-- Check the road type, lanes, max speed at sensor location -->
+                  </div>
+                  <div class="card-body">
+                    <div class="table-responsive" style="overflow-y:scroll;" id="table-responsive-id">
+                      <table class="table" id="table_lanes">
+                        <thead>
+                          <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Location</th>
+                            <th scope="col">Direction</th>
+                            <th scope="col">Lane</th>
+                            <th scope="col">MSpeed</th>
+                            <th scope="col">Type</th>
+                            <th scope="col">ID</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="row">
+                                    <div class="row  " id="chart-1">
+                                        <div class="col- xl-12 my-auto">
+                                            <div id="heat-map"></div>
+                                        </div>
+                                    </div>
+                                    <div class="row  " id="chart-2">
+                                        <div class="col- xl-12 my-auto">
+                                            <div id="heat-map2">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div> -->
+
+            <div class="row" id="chartblock1">
+              <div id="echartbar"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row subdashboard-element" id="lowersection">
+          <div class="col-xl" id="chartblock2">
+            <div id="heat-map"></div>
+            <div id="heat-map-daily-flow"></div>
+            <!-- <div id="heat-map-echarts"></div> -->
+          </div>
+          <div class="col-xl" id="chartblock3">
+            <div id="heat-map2"></div>
+            <div id="heat-map-daily-occupancy"></div>
+            <!-- <div id="heat-map-echarts2"></div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
+
+<!-- script files  -->
+
+<!-- externalcdn -->
+
+<!-- turf -->
+<script src="https://cdn.jsdelivr.net/npm/@turf/turf"></script>
+
+<!-- jquery js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"></script> -->
+
+<!-- bootstrap js -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<!-- leaflet js -->
+<script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+
+<!-- ajax jquery for leaflet- map load
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>  -->
+
+<!-- d3.js -->
+<script src="https://d3js.org/d3.v3.min.js"></script>
+
+<!-- axios -->
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+<!-- leaflet browser print  -->
+<script src="/lib/js/externalFiles/leaflet.browser.print.min.js"></script>
+
+<script src="/lib/js/externalFiles/leaflet-sidebar.min.js"></script>
+
+<!-- noUiSlider js -->
+<script src="./lib/js/externalFiles/nouislider.min.js"></script>
+
+<!--apexcharts-->
+<script src="./lib/js/externalFiles/apexcharts.min.js"></script>
+
+<!-- echarts -->
+<script src="./lib/js/externalFiles/echarts.min.js"></script>
+
+
+<!-- zoom home leaflet -->
+<script src="./lib/js/externalFiles/leaflet.zoomhome.min.js"></script>
+
+<!-- local js files-->
+
+<script src="./lib/js/apexchartstemplate.js"></script>
+<script src="./lib/js/echartstemplate.js"></script>
+<script src="./lib/js/events.js"></script>
+<script src="./lib/js/leafletfunctions.js"></script>
+<script src="./lib/js/functions.js"></script>
+<script src="./lib/js/main.js"></script>
+
+<!-- 
+<script src="./lib/js/functions copy.js"></script>
+<script src="./lib/js/proportionalmy.js"></script> -->
